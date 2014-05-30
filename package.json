@@ -1,0 +1,38 @@
+{
+  "name": "battle-royale",
+  "version": "0.0.1",
+  "description": "A 2D multiplayer battle arena using Node.js, Socket.IO, p2.js, and Phaser.",
+  "private": true,
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sru/battle-royale.git"
+  },
+  "dependencies": {
+    "express": "~4.3.2",
+    "p2": "~0.5.0",
+    "socket.io": "~1.0.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "SungRim Huh",
+  "license": "MIT",
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "indent": 2,
+    "latedef": "nofunc",
+    "unused": true,
+    "undef": false,
+    "sub": true,
+    "node": true
+  }
+}
