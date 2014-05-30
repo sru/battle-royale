@@ -27,9 +27,3 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-# asset works
-works
-
-# development libraries
-public/libdev
